@@ -1,0 +1,105 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                     SYNTHÈSE EXÉCUTIVE                                ║
+║        Analyse Perception SENELEC - Ouly TOURÉ - UCAD 2025           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+📊 DONNÉES ANALYSÉES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Total publications : 2,739
+- Période : 2024-01-01 → 2026-01-17 (106 semaines)
+- Sources : Facebook (68.9%), Enquête (24.6%), Twitter (6.5%)
+- Méthode : Modèle BERT multilingue (Accuracy: 86.15%)
+
+🎯 RÉSULTATS CLÉS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Sentiment Négatif : 66.81% (1,830 publications)
+✓ Sentiment Positif : 25.26% (692 publications)
+✓ Sentiment Neutre  : 7.92% (217 publications)
+
+🔍 ANALYSE THÉMATIQUE (4 thèmes identifiés)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Système Woyofal         : 57.9% (1,586 pub.) - 75.0% NÉGATIF ⚠️
+2. Coupures d'Électricité  : 23.6% (647 pub.)   - 60.7% négatif
+3. Service Client          : 13.4% (367 pub.)   - 46.9% négatif
+4. Facturation/Tarifs      : 5.1% (139 pub.)    - 54.0% négatif
+
+⚖️ CONSTAT MAJEUR : WOYOFAL (Test Chi² p < 0.001)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Le système Woyofal présente un TAUX DE REJET CRITIQUE :
+→ 75.0% de sentiment négatif (vs 55.5% pour autres thèmes)
+→ Différence statistiquement significative (Chi² = 132.26, p < 0.001)
+→ Score de criticité : 240.1 (plus haut de tous les thèmes)
+
+🗺️ ANALYSE GÉOGRAPHIQUE (490 répondants enquête)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Régions les plus critiques (taux insatisfaction > 50%) :
+1. Ziguinchor    : 63.6% insatisfaits
+2. Fatick        : 59.1% insatisfaits
+3. Saint-Louis   : 57.6% insatisfaits
+4. Kaolack       : 52.2% insatisfaits
+
+📈 ÉVOLUTION TEMPORELLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Sentiment négatif moyen : 81.1% sur 106 semaines
+- Volume moyen : 26 publications/semaine
+- Pics de mécontentement identifiés :
+  - 25 novembre 2025 : 41 publications négatives
+  - 16 janvier 2026 : 29 publications négatives
+
+🤖 PERFORMANCE MODÈLE BERT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Accuracy : 86.15% (Test Set : 65 exemples)
+- F1-Score : 86.52%
+- Precision : 88.92%
+- Recall : 86.15%
+- Modèle : bert-base-multilingual-cased
+- Entraînement : 7 epochs (Early Stopping, 302 exemples train)
+
+📋 ENQUÊTE TERRAIN (490 répondants)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Âge dominant : 18-25 ans (40.6%)
+- Genre : Hommes (59.8%)
+- Type client : Prépayé Woyofal (73.7%)
+- Taux satisfaction global : 31.8%
+- Taux insatisfaction global : 39.6%
+- Satisfaction Woyofal : 31.9%
+- Insatisfaction Woyofal : 45.4%
+
+💡 RECOMMANDATIONS STRATÉGIQUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. PRIORITÉ ABSOLUE : Refonte communication Woyofal
+   - Campagne pédagogique sur les avantages du prépayé
+   - Simplification processus de recharge
+   - Programme de fidélisation spécifique
+
+2. Renforcement Service Client (46.9% insatisfaction)
+   - Formation accrue des agents
+   - Amélioration temps de réponse
+
+3. Ciblage Régional : Interventions Ziguinchor, Fatick, Saint-Louis
+   - Actions ciblées dans les régions à >50% insatisfaction
+
+4. Monitoring Temps Réel
+   - Système d'alerte sur pics de mécontentement
+   - Tableau de bord sentiment en temps réel
+
+5. Gestion Coupures (60.7% insatisfaction)
+   - Communication anticipée des coupures programmées
+   - Réduction fréquence coupures
+
+═══════════════════════════════════════════════════════════════════════
+📊 MÉTHODOLOGIE COMPLÈTE
+═══════════════════════════════════════════════════════════════════════
+Phase 1 : Collecte - 3,223 publications brutes (Facebook, Twitter, Enquête)
+Phase 2 : Prétraitement - Nettoyage, détection langue → 2,739 publications
+Phase 3 : Labellisation - Semi-automatique + manuelle → 432 exemples
+Phase 4 : Modélisation - BERT fine-tuning (70% train, 15% val, 15% test)
+Phase 5 : Topic Modeling - LDA 8 topics → 4 thèmes métier
+Phase 6 : Analyses - Temporelle, géographique, thématique, comparative
+
+═══════════════════════════════════════════════════════════════════════
+Date : 16/02/2026 21:59
+Contact : ouly.toure@ucad.edu.sn
+Encadrant : Pr Aliou BOLY
+═══════════════════════════════════════════════════════════════════════
