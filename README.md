@@ -204,7 +204,7 @@ senelec-sentiment-analysis/
 # ⚙️ Installation & Exécution
 
 ```bash
-git clone https://github.com/oulimata403/analysis-senelec-sentiment.git
+git clone https://github.com/oulimata403/senelec-sentiment-analysis.git
 cd senelec-sentiment-analysis
 python -m venv venv
 venv\Scripts\activate
